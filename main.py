@@ -46,8 +46,9 @@ def main(page: ft.Page):
         water_display,
         progress_bar,
         ft.Divider(height=20, color="transparent"),
-        ft.ElevatedButton("Add 250ml", icon=ft.icons.WATER_DROP, on_click=add_water),
-        ft.TextButton("Reset", on_click=reset, color="grey"),
+        # Standard buttons without icons or complex styling for max compatibility
+        ft.ElevatedButton("Add 250ml", on_click=add_water),
+        ft.TextButton("Reset", on_click=reset),
         ft.Divider(height=40, color="transparent"),
         ft.Text("Final project submission by Reva", size=10, italic=True)
     )
