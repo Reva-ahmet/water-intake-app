@@ -1,0 +1,13 @@
+[project]
+name = "water-tracker"
+version = "0.1.0"
+description = "Final project submission for GUI Design course"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flet>=0.21.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
